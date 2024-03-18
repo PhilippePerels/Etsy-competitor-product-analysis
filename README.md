@@ -34,6 +34,7 @@ sns.heatmap(correlation_matrix, annot=True)
 plt.title('Correlation Matrix')
 plt.show()
 ```
+![Capture d'écran 2024-03-18 152638](https://github.com/PhilippePerels/Etsy-competitor-product-analysis/assets/118985006/7df1a45c-6774-4474-a584-39e1a8f76398)
 ```python
 # Sort the shops by mean revenue in descending order
 shop_stats = data.groupby('Shop Name')['Est. Monthly Revenue'].agg(['count', 'mean'])
@@ -47,6 +48,7 @@ plt.ylabel('Mean Est. Monthly Revenue')
 plt.title('Mean Est. Monthly Revenue by Shop')
 plt.show()
 ```
+![Capture d'écran 2024-03-18 152751](https://github.com/PhilippePerels/Etsy-competitor-product-analysis/assets/118985006/bd51f09e-3985-4840-9a1a-7886b3f60a0d)
 ```python
 # boxplot to see relationship between product title character count and estimated monthly revenue
 data['Title Character Count'] = data['Product Name'].apply(len)
@@ -55,6 +57,7 @@ plt.xticks(rotation=90)
 plt.title('Title Character Count vs. Monthly Revenue')
 plt.show()
 ```
+![Capture d'écran 2024-03-18 161140](https://github.com/PhilippePerels/Etsy-competitor-product-analysis/assets/118985006/f9bb0297-9f9a-4be8-a17f-60d24541fe7c)
 ```python
 # Scatter plot to visualize the relationship between listing age and estimated monthly revenue
 plt.scatter(data['Listing Age'], data['Est. Monthly Revenue'])
@@ -79,6 +82,7 @@ plt.ylabel('Frequency')
 plt.title('Price Distribution for High-Revenue Listings')
 plt.show()
 ```
+![Capture d'écran 2024-03-18 161301](https://github.com/PhilippePerels/Etsy-competitor-product-analysis/assets/118985006/010a2261-1000-44f0-a379-fc525835a1de)
 ```python
 # Create a list of all tag columns (Tag 1 to Tag 13)
 tag_columns = ['Tag 1', 'Tag 2', 'Tag 3', 'Tag 4', 'Tag 5', 'Tag 6', 'Tag 7', 'Tag 8', 'Tag 9', 'Tag 10', 'Tag 11', 'Tag 12', 'Tag 13']
@@ -135,5 +139,6 @@ plt.ylabel('Est. Monthly Revenue')
 plt.title('Tag Length vs. Monthly Revenue')
 plt.show()
 ```
+![Capture d'écran 2024-03-18 161406](https://github.com/PhilippePerels/Etsy-competitor-product-analysis/assets/118985006/dfb81bf9-6e10-4722-b5c8-aad96d74f040)
 
 ### Recommandations
