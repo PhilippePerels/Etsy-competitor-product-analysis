@@ -2,7 +2,7 @@
 Analysing Etsy competitor's products to drive business growth through data driven insights
 
 ### Project Overview
-1. Download data on competitor product in my niche, gathered with Everbee (Etsy analytics tool).
+1. Download data on competitor products in my niche, gathered with Everbee (Etsy analytics tool).
 2. Use Python (pandas, matplotlib and seaborn) for data exploration, assessment, and manipulation.
 
 ### Tools 
