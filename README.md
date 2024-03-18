@@ -142,3 +142,6 @@ plt.show()
 ![Capture d'écran 2024-03-18 161406](https://github.com/PhilippePerels/Etsy-competitor-product-analysis/assets/118985006/dfb81bf9-6e10-4722-b5c8-aad96d74f040)
 
 ### Recommandations
+1. Use at least 139 title characters for your products on Etsy.
+2. Regularly post new product on your shop.
+3. Use all 13 tags available.
