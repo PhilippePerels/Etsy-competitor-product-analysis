@@ -143,5 +143,5 @@ plt.show()
 
 ### Recommandations
 1. Use at least 139 title characters for your products on Etsy.
-2. Regularly post new product on your shop.
+2. Regularly post new products on your shop.
 3. Use all 13 tags available.
